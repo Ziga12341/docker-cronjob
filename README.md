@@ -8,3 +8,4 @@ you can access to date.txt in docker in root folder
 
 in terminal:
 docker build -t cronjob-datetime .
+docker run -d cronjob-datetime
