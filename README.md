@@ -23,9 +23,9 @@ docker ps
 
     it will list all containers
 
-    copy container id from image cronjob-datetime (something like 34681b275e96)
+    copy container name from image cronjob-datetime
 
-docker exec -it 34681b275e96 sh
+docker exec -it container-name sh
 
     opens console inside your docker
     NOTE: you need to change container ID
