@@ -5,4 +5,4 @@ COPY . .
 RUN pip install -r requirements.txt && \
     crontab crontab
 
-CMD ["crond", "-f"]
+ENTRYPOINT ["/usr/sbin/crond", "-f"]
